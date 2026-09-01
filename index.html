@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#FFF9F2">
+  <title>Happy Birthday, Mama ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Opening screen -->
+  <div id="opening" class="opening">
+    <div class="opening-inner">
+      <p class="opening-soft">untuk perempuan paling istimewa... ♡</p>
+      <h1 class="opening-title">HAPPY BIRTHDAY,<br>MAMA</h1>
+      <button id="openBtn" class="btn primary" type="button">OPEN ♡</button>
+    </div>
+  </div>
+
+  <!-- Main content -->
+  <main id="main" class="main" hidden>
+    <button id="musicBtn" class="music-btn" type="button" title="Play music" aria-label="Play music">♫</button>
+    
+    <!-- Hero message -->
+    <section class="section hero">
+      <p class="eyebrow">sedikit sesuatu untuk Mama</p>
+      <h1>HAPPY BIRTHDAY,<br>MAMA ♡</h1>
+      <p class="lead">Hari ini sepenuhnya untuk Mama.</p>
+      <p class="body-text">
+        Terima kasih untuk semua kasih sayang, kesabaran,<br>
+        dan hal-hal kecil yang Mama lakukan setiap hari.<br>
+        Semoga tahun ini membawa lebih banyak<br>
+        kebahagiaan, ketenangan, dan momen indah.
+      </p>
+    </section>
+
+    <!-- Interactive heart -->
+    <section class="section heart-section">
+      <button id="heartBtn" class="heart-btn" type="button" aria-label="Click the heart">♡</button>
+      <p class="hint" id="heartHint">click me</p>
+      <p class="heart-reveal" id="heartReveal" hidden>
+        hehe, cuma mau ingetin saja<br>
+        seberapa sayang aku sama Mama ♡
+      </p>
+      <div id="heartsLayer" class="hearts-layer" aria-hidden="true"></div>
+    </section>
+
+    <!-- Random wish -->
+    <section class="section wish-section">
+      <p class="eyebrow">SEBUAH DOA KECIL UNTUK MAMA ✨</p>
+      <p class="wish-text" id="wishText">Semoga hari-hari Mama selalu dipenuhi ketenangan dan kebahagiaan.</p>
+      <button id="wishBtn" class="btn soft" type="button">DOA LAINNYA</button>
+    </section>
+
+    <!-- Letter -->
+    <section class="section letter-section">
+      <article class="letter-card">
+        <p class="letter-dear">Dear Mama, ♡</p>
+        <p class="letter-body">
+          Terima kasih sudah selalu ada —<br>
+          dengan sabar, lembut, dan penuh kasih.<br>
+          Semoga tahun ini lebih ringan,<br>
+          lebih tenang, dan penuh hal baik untuk Mama.
+        </p>
+        <p class="letter-close">Happy Birthday, Mama. ♡</p>
+      </article>
+    </section>
+
+    <!-- Cake -->
+    <section class="section cake-section">
+      <p class="eyebrow" id="cakeLabel">buat permintaan, Mama ♡</p>
+      <div class="cake" id="cake">
+        <div class="candle c1"><span class="flame"></span><span class="smoke"></span></div>
+        <div class="candle c2"><span class="flame"></span><span class="smoke"></span></div>
+        <div class="candle c3"><span class="flame"></span><span class="smoke"></span></div>
+        <div class="frosting"></div>
+        <div class="layer layer-top"></div>
+        <div class="layer layer-bottom"></div>
+        <div class="plate"></div>
+      </div>
+      <button id="blowBtn" class="btn primary" type="button">TIUP LILINNYA</button>
+      <div id="confetti" class="confetti" aria-hidden="true"></div>
+    </section>
+
+    <!-- Secret message -->
+    <section class="section secret-section">
+      <p class="secret-tease">ada satu hal lagi...</p>
+      <button id="secretBtn" class="btn soft" type="button">KLIK DI SINI ♡</button>
+      <div id="secretBox" class="secret-box" hidden>
+        <p>
+          Mama adalah rumah, tempat paling tenang,<br>
+          dan salah satu berkah terbesar dalam hidupku.<br>
+          Terima kasih sudah menjadi Mama-ku.<br>
+          I love you more than words can say. ♡
+        </p>
+      </div>
+    </section>
+
+    <!-- Final -->
+    <section class="section final-section">
+      <h2>HAPPY BIRTHDAY, MAMA ♡</h2>
+      <p class="final-line">Terima kasih sudah menjadi rumahku.</p>
+      <p class="final-sign">with all my love ♡</p>
+      <div class="final-hearts" aria-hidden="true">
+        <span>♡</span><span>♡</span><span>♡</span><span>♡</span><span>♡</span>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>dibuat dengan penuh sayang ♡</span>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
